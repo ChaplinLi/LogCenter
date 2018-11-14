@@ -22,7 +22,7 @@ Android Studio
     
     7.在Eclipse中引入P项目，在目标项目中添加P项目作为Library
 
-    8.接入以下接口
+    8.在目标项目中填写AndroidManifest需要的四大组件
 
 
 ## 接口说明：
@@ -42,3 +42,17 @@ Android Studio
 4.LogCenter.onDestory();
 
     --当应用注销时关闭Log服务
+    
+## 常见问题：
+
+    1.ClassDefNotFound：AndroidManifest未配置好activity等组件
+            或者需要清除目标项目bin目录下P项目相关的jar包
+            或查看引用路径是否为P项目的完整路径
+    
+    2.重新编译的代码发现并未修改：清除目标项目bin目录下P项目相关的jar包
+    
+    3.资源未找到：查看引用路径是否为P项目的完整路径
+    
+## 效果图：
+
+
