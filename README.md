@@ -54,6 +54,9 @@ Android Studio
     
     3.资源未找到：查看引用路径是否为P项目的完整路径
     
+## 注意：
+    若组件使用的是v4的包则不能使用v7的组件
+    
 ## 效果图：
 
 ![](https://github.com/ChaplinLi/LogCenter/raw/master/pic/1.png)
