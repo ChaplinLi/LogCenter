@@ -56,4 +56,7 @@ Android Studio
     
 ## 效果图：
 
+![](https://github.com/ChaplinLi/LogCenter/raw/master/pic/1.png)
+![](https://github.com/ChaplinLi/LogCenter/raw/master/pic/2.png)
+
 
