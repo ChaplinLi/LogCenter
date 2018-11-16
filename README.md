@@ -31,16 +31,24 @@ Android Studio
 1.LogCenter.init(Context);
 
     --初始化悬浮窗口，创建log文件
+    
+2.LogCenter.showLogButton();
 
-2.LogCenter.onResume();
+    --显示悬浮框（建议在Activity onResume生命周期接入）
+    
+3.LogCenter.hideLogButton();
 
-    --当应用由后台重新回到最上层界面时，显示悬浮窗口
+    --隐藏悬浮框（建议在Activity onStop生命周期接入）
+    
+4.LogCenter.changeCommandLine(ArrayList commandLine);
 
-3.LogCenter.onStop();
+    --过滤日志输出（如："logcat","-d")
+    
+5.LogCenter.changeFilePath(String filePath,String fileName);
+    
+    --修改日志文件输出路径
 
-    --当应用退出到后台是隐藏悬浮窗口
-
-4.LogCenter.onDestory();
+6.LogCenter.onDestory();
 
     --当应用注销时关闭Log服务
     
